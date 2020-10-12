@@ -8,7 +8,7 @@ export default function Search() {
             </label>
                 <input 
                  type="text"
-                 className="query" 
+                 className="input" 
                  placeholder="Search">
                 </input>
                 <button className="button" type="submit">Enter</button>
