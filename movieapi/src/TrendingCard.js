@@ -12,7 +12,7 @@ import {
       return (
           <Col xs="6" md="4" xl="3">
         <Card>
-        <CardImg top width="100%" src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${film.backdrop_path}`} alt="Card image cap" />
+        <CardImg top className="card--image" src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${film.backdrop_path}`} alt="Card image cap" />
         <CardBody>
           <CardTitle>{film.title}</CardTitle>
           <CardText>{film.overview}</CardText>
