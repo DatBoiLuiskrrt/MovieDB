@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import TrendingCard from "./TrendingCard";
 
 function Trending() {
     const [ movies, setMovies ] = useState([]);
@@ -18,8 +19,8 @@ function Trending() {
     return (
         <>
         {movies.map( film => {
-            return <TrendingCard film={film} key={film.id} />
-        })}
+            return <TrendingCard film={film} key={film.id} /> 
+         })} 
         </>
     )
 }
